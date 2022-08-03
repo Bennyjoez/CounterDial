@@ -20,9 +20,9 @@
 }
 
 .container input {
-    height: 90px;
+    height: fit-content;
     width: 200px;
-    font-size: 5rem;
+    font-size: calc(5rem + 2vw);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
     font-weight: bolder;
@@ -30,14 +30,10 @@
     border: none;
 }
 
-.container input:current {
-    border: none;
-    
-}
 
 h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 3rem;
+    font-size: calc(3rem + 1vw);
 }
 .buttons {
     margin-top: 10px;
@@ -46,6 +42,7 @@ h1 {
 button {
     padding: 3px;
     border-radius: 5px;
+    font-size: calc(1rem + 0.5vw);
     color: black;
     border: 2px solid black;
     margin: 5px
